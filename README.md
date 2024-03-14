@@ -7,7 +7,7 @@ Use the 'aws_autoscaling_schedule' terraform resource : https://www.terraform.io
 ```
 module "autoscaling-schedule" {
   source  = "github.com/santhoshbhandari3008/terraform-aws-autoscaling-schedule"
-  version = "0.2"
+  version = "1.0.0"
 
   asg_schedules = {
     "startup" = {
