@@ -5,7 +5,8 @@ variable "asg_schedules" {
     max_size          = number,
     desired_capacity  = number,
     recurrence        = string,
-    asg_name          = list(string)
+    asg_name          = list(string),
+    time_zone         = string
   }))
   default     = {}
 }
